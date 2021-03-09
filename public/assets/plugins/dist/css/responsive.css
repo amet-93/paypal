@@ -1,0 +1,282 @@
+@media (max-width:1199px) {
+.menu-container .nav > li > a {
+	padding: 10px 8px;
+	font-size: 14px;
+}
+.video iframe {
+	width: 100%;
+}
+.pricingTable .title, .pricingTable1 .title {
+	font-size: 22px;
+}
+footer .useful-links {
+	float: none;
+}
+footer .useful-links li a {
+	padding: 14px 10px;
+}
+footer .footer-logo {
+	padding-top: 0
+}
+.how-it-works {
+	padding: 60px 50px;
+}
+.chash-back p {
+    font-size: 15px;
+    padding-left: 15px;
+}
+.chash-back h4 {
+    padding: 30px 0 0;
+    font-size: 28px;
+    margin-top: 70px;
+}
+.support-roll.blue-bg {
+    padding: 50px 0;
+}
+}
+ @media only screen and (max-width: 800px) {
+/* Force table to not be like tables anymore */
+
+#no-more-tables table,  #no-more-tables thead,  #no-more-tables tbody,  #no-more-tables th,  #no-more-tables td,  #no-more-tables tr {
+	display: block;
+}
+/* Hide table headers (but not display: none;, for accessibility) */
+
+#no-more-tables thead tr {
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+}
+#no-more-tables tr {
+	border: 1px solid #ccc;
+}
+#no-more-tables td {
+	/* Behave  like a "row" */
+
+	border: none;
+	border-bottom: 1px solid #eee;
+	position: relative;
+	padding-left: 50%;
+	white-space: normal;
+	text-align: left;
+}
+#no-more-tables td:before {
+    content: attr(data-title);
+    position: absolute;
+    width: 45%;
+    height: 100%;
+    top: 0;
+    border-right: 1px solid rgba(0,0,0,.2);
+    padding: 0;
+    font-size: 18px;
+    color: #000;
+    vertical-align: middle;
+    padding: 15px 0;
+	left: 5px;
+}
+/*
+
+	Label the data
+
+	*/
+
+#no-more-tables td:before {
+	content: attr(data-title);
+}
+}
+ @media (max-width:768px) {
+.top_header .navbar-brand {
+	padding: 15px 0px;
+}
+.menu-container .nav > li > a {
+	font-size: 12px;
+}
+.menu-container {
+	padding: 5px 0
+}
+#logo-header {
+	width: 150px;
+}
+footer .footer-logo {
+	margin: 0 auto;
+}
+footer .copyright {
+	padding: 20px;
+}
+footer .divider {
+	display: none
+}
+}
+@media (max-width:767px) {
+.padding_60, .padding_40 {
+	padding: 0px;
+}
+.chash-back p {
+    padding: 0 15px;
+}
+.chash-back h4 {
+    margin: 0;
+}
+.chash-back .cash-back-details {
+	padding: 30px 0;
+    text-align: center;
+}
+.pricing-Details h2, .certification-price {
+	margin: 0;
+	float: none;
+	width: 100%;
+}
+
+#no-more-tables table tr th:first-child, #no-more-tables table tr td:first-child {
+    width: 100%;
+}
+
+#no-more-tables table tr td:nth-child(2n+1) {
+    background: rgba(115,189,76,0.2);
+}
+#no-more-tables table tr:nth-child(2n+1) {
+    background: transparent;
+}
+.top_header .navbar-brand {
+	height: auto;
+	padding: 0 15px;
+}
+#no-more-tables table tr th, #no-more-tables table tr td {
+    min-height: 150px;
+}
+.top_header .navbar-toggle {
+	border: 1px solid #0d4066;
+}
+.top_header .navbar-toggle .icon-bar {
+	background: #0d4066
+}
+#logo-header {
+	width: 180px;
+	margin-top: 0px;
+}
+.main-content .cybersecurity-certification {
+	margin-top: 0;
+}
+.top_header .contact-nav {
+	display: block;
+}
+.top_header .contact-nav li {
+	float: none;
+	display: inline-block
+}
+.top_header .contact-nav, .top_header .user-nav {
+	margin: 0 auto;
+	text-align: right;
+	display: block;
+	width: 100%;
+	float: left;
+}
+.certification-reason h3 {
+	padding: 0 20px;
+}
+.video-container {
+	padding: 20px;
+}
+.video-container .video iframe {
+	width: 100%;
+	height: auto;
+}
+.reason-list {
+	padding-left: 20px;
+}
+footer .copyright {
+	padding: 20px;
+}
+footer .useful-links {
+	text-align: center
+}
+footer .useful-links li a {
+	padding: 5px
+}
+#no-more-tables {
+	padding: 10px 0
+}
+#no-more-tables table tr:hover {
+	background: #f1f1f1;
+	color: rgba(115,189,76,1)
+}
+#no-more-tables table tr:hover td .features-table, #no-more-tables table tr:hover td .features-table-free i {
+	color: rgba(115,189,76,1)
+}
+#no-more-tables table tr:hover td .features-table span {
+	color: #808080
+}
+#no-more-tables table {
+	max-height: 350px;
+	overflow-y: scroll;
+}
+.pricingTable1 .pricing-content, .pricingTable .pricing-content {
+	height: auto;
+}
+.sign-up .inner-div, .sign-up .bg-white, .certification-level .inner-div1 {
+	height: auto;
+	width: 100%;
+}
+.sign-up {
+	padding: 20px 0;
+}
+.bg-title h1 {
+	font-size: 22px;
+	padding: 10px 0
+}
+.pt-100 {
+	padding-top: 0px;
+}
+.inner-div .padding_40 {
+	padding: 0px!important;
+}
+.dv-check {
+	padding: 10px 0
+}
+.submit-btn {
+	margin: 0 auto;
+	text-align: center;
+	display: block
+}
+.inner-div .signUp-form {
+	padding: 15px;
+}
+.comparison-table .btn_buy {
+	width: 100%;
+}
+.scrollToTop {
+	z-index: 999
+}
+.dv-purchase {
+	display: none
+}
+}
+ @media (max-width:680px) {
+}
+ @media (max-width:540px) {
+.comparison-table .btn_buy {
+	margin: 20px 0
+}
+.title-text {
+	padding: 20px 0
+}
+footer .footer-logo {
+	padding: 20px 0
+}
+footer .useful-links {
+	display: inherit;
+	padding: 10px 0
+}
+.purchase-plan p b {
+	display: block;
+}
+.paymentbutton.pull-right {
+    float: none !important;
+    margin: 20px 0;
+    width: 100%;
+}
+.pricingTable-signup {
+    width: 100%;
+    text-align: center;
+}
+}
